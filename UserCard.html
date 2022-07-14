@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Card</title>
+    <style>
+      .main {
+        width: 100vw;
+        height: 100vh;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+      .card {
+        width: 300px;
+        height: 100px;
+        border: 1px solid black;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: row;;
+        justify-content: center;
+        align-items: center;
+        background-color: #dddddd;
+      }
+      .left {
+        display: flex;
+        width: 30%;
+        justify-content: center;
+        align-items: center;
+      }
+      .circle{
+        display:flex;
+        height: 70px;
+        width: 70px;
+        border-radius: 70px;
+        background-color: grey;
+      }
+      .right {
+        display: flex;
+        width: 70%;
+        flex-direction: column;
+      }
+      .name{
+        display:flex;
+        margin-top:0px;
+        margin-bottom: 10px;
+      }
+      .handle{
+        display: flex;
+        margin-top: -4px;
+        color: #999999;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="main">
+      <!--This is the actual Card component-->
+      <div class="card"> <!-- Card starts here-->
+        <div class="left"><div class="circle"><!--You can place image here--></div></div>
+        <div class="right">
+            <h2 class="name">Prakhar Sharma</h2>
+            <div class="handle">@prakhar_2206</div>
+        </div>
+      </div><!-- Card Ends here -->
+    </div>
+  </body>
+</html>
